@@ -1,0 +1,9 @@
+{
+  "name": "FrontTest",
+  "version": "1.0.0",
+  "description": "UpperSoft front-end test",
+  "main": "index.js",
+  "repository": "https://github.com/igortuag/teste-front-end.git",
+  "author": "Igor Tuag <igortuag@gmail.com>",
+  "license": "MIT"
+}
