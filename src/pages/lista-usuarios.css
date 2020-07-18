@@ -1,0 +1,93 @@
+@font-face {
+  font-family: HelveticaNeue;
+  src: url("./assets/fonts/HelveticaNeue\ Medium.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+html,
+body {
+}
+
+body {
+  background: #eff0f3;
+}
+
+header {
+  background: #174dba;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+header img {
+  margin: auto;
+}
+
+main {
+  height: 100vh;
+  font-family: "HelveticaNeue";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smothing: antialiased;
+  padding: 60px;
+}
+
+main h1 {
+  padding: 30px;
+  font-size: 48px;
+  color: #174dba;
+  font-weight: bold;
+}
+
+main .userList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main .container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 10px;
+  min-width: 400px;
+  max-width: 400px;
+}
+
+main .container .userImg {
+  border-radius: 50%;
+  width: 150px;
+  text-align: center;
+}
+
+main .container button {
+  margin-left: auto;
+  border: none;
+  background: none;
+	color: inherit;
+	border: none;
+	cursor: pointer;
+	outline: inherit;
+}
+
+main .userList p {
+  margin: auto;
+  text-align: center;
+  color: #174dba;
+}
+
+
