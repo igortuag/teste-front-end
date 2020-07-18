@@ -1,18 +1,22 @@
 .loginButton {
-  font-size: 16px;
+  font-size: 22px;
   font-weight: bold;
   background-color: $primary-color;
-  border-radius: 10px;
   color: $white-color;
+  border-radius: 10px;
   margin: auto;
-  height: 55px;
+  height: 50px;
   width: 70%;
   margin-bottom: 60px;
-  margin-top: 60px;
+  margin-top: 50px;
   border: 0px;
   cursor: pointer;
   transition: background-color 0.5s;
-
+  border: none;
+  outline: inherit;
+  button {
+    height: 200px;
+  }
   &:hover {
     background-color: darken($primary-color, 15);
   }
@@ -23,7 +27,6 @@
     border: none;
     background: none;
     color: inherit;
-    border: none;
     cursor: pointer;
     outline: inherit;
 

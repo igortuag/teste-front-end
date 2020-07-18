@@ -10,19 +10,19 @@
   </head>
   <body>
     <header>
-      <div class="container">
+      <div class="logo">
         <img src="../assets/logo-uppersoft.svg" alt="Uppersoft logo" />
       </div>
     </header>
 
-    <main>
-      <div class="container">
+    <main class="loginPage">
+      <div class="loginBox">
         <h1>Acessar</h1>
 
         <form>
-          <label for="Login">E-mail</label>
+          <label class="inputLabel" for="Login">E-mail</label>
           <input type="email" class="inputData" id="email" name="email" />
-          <label for="Senha">Senha</label>
+          <label class="inputLabel" for="Senha">Senha</label>
           <input
             type="password"
             class="inputData"
@@ -30,7 +30,7 @@
             name="password"
           />
         </form>
-        <button type="" onclick="Authentication();">ENTRAR</button>
+        <button class="loginButton" onclick="Authentication();">ENTRAR</button>
       </div>
     </main>
   </body>

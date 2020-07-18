@@ -1,0 +1,39 @@
+.userBox {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 10px;
+  min-width: 380px;
+  max-width: 380px;
+
+  .userImg {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  p {
+    margin: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: HelveticaNeueBold;
+    color: #174dba;
+  }
+
+  span {
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    color: #505050;
+    margin-bottom: 30px;
+  }
+
+  footer {
+    color: red
+  }
+}
