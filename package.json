@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/igortuag/teste-front-end.git",
   "author": "Igor Tuag <igortuag@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
 }

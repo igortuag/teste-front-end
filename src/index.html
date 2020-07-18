@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./index.css">     
-  <title>Document</title>
-</head>
-<body>
-  <header><img src="../assets/logo-uppersoft.svg" alt="Uppersoft logo"></header>
-<main>
-  <div class="content">
-    <form action="">
-      <span for="Login">Login</span>
-      <input type="email">
-      <span for="Senha">Senha</span>
-      <input type="password">
-    </form>
-  </div>
-</main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Uppersoft</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./scripts/auth.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img src="../assets/logo-uppersoft.svg" alt="Uppersoft logo" />
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <h1>Acessar</h1>
+
+        <form>
+          <label for="Login">E-mail</label>
+          <input type="email" class="inputData" id="email" name="email" />
+          <label for="Senha">Senha</label>
+          <input
+            type="password"
+            class="inputData"
+            id="password"
+            name="password"
+          />
+        </form>
+        <button type="" onclick="Authentication();">ENTRAR</button>
+      </div>
+    </main>
+  </body>
 </html>
