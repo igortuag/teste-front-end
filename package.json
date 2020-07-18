@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "UpperSoft front-end test",
   "main": "index.js",
+  "scripts": {
+    "transpileSass": "sass --watch src/styles/main.scss:src/styles/main.css"
+  },
   "repository": "https://github.com/igortuag/teste-front-end.git",
   "author": "Igor Tuag <igortuag@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "sass": "^1.26.10"
   }
 }

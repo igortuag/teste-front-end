@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  height: 100vh;
+}
+
+body {
+  background-color: $gray-color;
+  color: $primary-color;
+  -webkit-font-smothing: antialised;
+}
+
+body, input, button {
+  font-family: "HelveticaNeue";
+  font-size: 16px;
+}

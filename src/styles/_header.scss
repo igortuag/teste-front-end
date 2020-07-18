@@ -1,0 +1,16 @@
+header {
+  background: $primary-color;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  .container {
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+
+  img {
+    margin: auto;
+  }
+}

@@ -1,0 +1,101 @@
+header {
+  background: #174dba;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+header img {
+  margin: auto;
+}
+
+@font-face {
+  font-family: HelveticaNeue;
+  src: url("../assets/fonts/HelveticaNeue Medium.ttf");
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+body {
+  background: #EFF0F3;
+  font-family: "HelveticaNeue";
+}
+
+main {
+  height: 100vh;
+  font-family: "HelveticaNeue";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smothing: antialiased;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .container {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  width: 550px;
+  margin: 0px auto;
+  position: relative;
+  border-radius: 40px;
+}
+main h1 {
+  font-size: 48px;
+  color: #174dba;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+main form {
+  display: flex;
+  flex-direction: column;
+}
+main form label {
+  font-size: 22px;
+  color: #174dba;
+  margin: auto;
+  padding-top: 20px;
+  margin-bottom: 5px;
+  width: 70%;
+}
+main form input {
+  font-size: 22px;
+  border: 2px solid #174dba;
+  color: #174dba;
+  margin: auto;
+  border-radius: 10px;
+  height: 50px;
+  width: 70%;
+}
+main form .inputData {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+main button {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #174dba;
+  border-radius: 10px;
+  color: #FFFFFF;
+  margin: auto;
+  height: 55px;
+  width: 70%;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  border: 0px;
+  transition: background-color 2s;
+}
+main button:hover {
+  background-color: #0f3176;
+}
+
+/*# sourceMappingURL=main.css.map */

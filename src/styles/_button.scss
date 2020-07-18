@@ -1,0 +1,33 @@
+.loginButton {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: $primary-color;
+  border-radius: 10px;
+  color: $white-color;
+  margin: auto;
+  height: 55px;
+  width: 70%;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  border: 0px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+
+  &:hover {
+    background-color: darken($primary-color, 15);
+  }
+}
+
+.editButton {
+    margin-left: auto;
+    border: none;
+    background: none;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+
+    img {
+      margin: 15px;
+    }
+}
