@@ -8,11 +8,9 @@ function Authentication() {
       password: pass.value,
     })
     .then(function (response) {
-      console.log(response.data);
       if (response.status === 200) {
-        alert(response.status);
-        alert(response.data.token);
-        window.location.href = './pages/lista-usuarios.html';
+        window.location.href = "./pages/lista-usuarios.html";
+        localStorage.setItem("token", response.data.token);
       } else {
         alert("Email ou senha errado");
       }

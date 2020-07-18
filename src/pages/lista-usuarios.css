@@ -1,6 +1,8 @@
 @font-face {
   font-family: HelveticaNeue;
-  src: url("./assets/fonts/HelveticaNeue\ Medium.ttf");
+  src: url("../assets/fonts/HelveticaNeue\ Medium.ttf");
+  font-family: HelveticaNeueBold;
+  src: url("../assets/fonts/Helvetica\ Neu\ Bold.ttf");
 }
 
 * {
@@ -36,42 +38,38 @@ header img {
 }
 
 main {
+  max-width: 1400px;
   height: 100vh;
   font-family: "HelveticaNeue";
   text-rendering: optimizeLegibility;
   -webkit-font-smothing: antialiased;
-  padding: 60px;
+  padding: 30px;
+  margin: auto;
 }
 
 main h1 {
-  padding: 30px;
-  font-size: 48px;
+  flex-basis: 100%;
+  font-family: "HelveticaNeueBold";
+  font-size: 32px;
   color: #174dba;
   font-weight: bold;
+  margin: 80px 0px 20px 40px;
 }
 
 main .userList {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 main .container {
-  padding: 10px;
+  margin: 20px;
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
-  position: relative;
   border-radius: 10px;
-  min-width: 400px;
-  max-width: 400px;
-}
-
-main .container .userImg {
-  border-radius: 50%;
-  width: 150px;
-  text-align: center;
+  min-width: 380px;
+  max-width: 380px;
 }
 
 main .container button {
@@ -84,10 +82,41 @@ main .container button {
 	outline: inherit;
 }
 
+main .container button img {
+  margin: 15px;
+}
+
+main .container .userImg {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  width: 100px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 main .userList p {
+  margin: 10px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: HelveticaNeueBold;
+  color: #174dba;
+}
+
+main .userList span {
   margin: auto;
   text-align: center;
-  color: #174dba;
+  font-size: 16px;
+  color: #505050;
+  margin-bottom: 30px;
+}
+
+main footer p {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: end;
+  margin: 15px 40px 60px 0px;
 }
 
 
