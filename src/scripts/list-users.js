@@ -12,7 +12,7 @@ function loadUsers() {
           (user) =>
             (userList.innerHTML += `<div class="userBox">
         <button class="editButton">
-        <img src="../../assets/icon-edit.svg" alt="Editar" />
+        <img src="../assets/icon-edit.svg" alt="Editar" />
         </button>
         <img class="userImg"
         src="${user.avatar}"
