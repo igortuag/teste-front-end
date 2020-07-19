@@ -3,44 +3,41 @@
   flex-direction: column;
   background-color: $white-color;
   width: 470px;
-  height: 440px;
   margin: auto;
-  position: relative;
   border-radius: 10px;
-}
-
-h1 {
-  font-size: 32px;
-  font-family: "HelveticaNeueBold";
-  color: $primary-color;
-  font-weight: bold;
-  text-align: center;
-  padding-top: 35px;
-  padding-bottom: 55px;
-}
 
 form {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
-  label {
-    margin: auto;
-    padding-top: 5px;
-    margin-bottom: 5px;
-    width: 70%;
-  }
+    label {
+      margin: auto;
+      padding-top: 5px;
+      margin-bottom: 5px;
+      width: 70%;
+    }
 
-  input {
-    border: 2px solid $primary-color;
-    color: $primary-color;
-    margin: auto;
-    border-radius: 10px;
-    height: 50px;
-    width: 70%;
-  }
+    input {
+      border: 2px solid $primary-color;
+      color: $primary-color;
+      margin: auto;
+      border-radius: 10px;
+      height: 50px;
+      width: 70%;
+    }
 
-  .inputData {
-    padding-right: 20px;
-    padding-left: 20px;
+    textarea:focus,
+    input:focus,
+    select:focus {
+      box-shadow: 0 0 0 0;
+      border: 2px solid $dark-color;
+      border-radius: 10px;
+      outline: 0;
+    }
+
+    .inputData {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
   }
 }

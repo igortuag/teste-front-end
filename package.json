@@ -1,5 +1,5 @@
 {
-  "name": "FrontTest",
+  "name": "front-end-test",
   "version": "1.0.0",
   "description": "UpperSoft front-end test",
   "main": "index.js",
@@ -10,7 +10,9 @@
   "author": "Igor Tuag <igortuag@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
     "sass": "^1.26.10"
   }
 }

@@ -1,11 +1,9 @@
 .userBox {
-  margin: 20px;
   display: flex;
+  margin-bottom: 5% ;
   flex-direction: column;
-  background-color: #ffffff;
+  background-color: $white-color;
   border-radius: 10px;
-  min-width: 380px;
-  max-width: 380px;
 
   .userImg {
     display: block;
@@ -31,9 +29,5 @@
     font-size: 16px;
     color: #505050;
     margin-bottom: 30px;
-  }
-
-  footer {
-    color: red
   }
 }

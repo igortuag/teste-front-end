@@ -1,0 +1,23 @@
+h1 {
+  color: $primary-color;
+  font-family: "HelveticaNeueBold";
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.adminUsers {
+  h1 {
+    position: absolute;
+    top: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.loginBox {
+  h1 {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 55px;
+  }
+}

@@ -3,17 +3,19 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  width: 100%;
+  margin: auto;
 }
 
 .usersPage {
+  height: 100%;
   align-items: center;
-  h1 {
-    flex-basis: 100%;
-    font-family: "HelveticaNeueBold";
-    font-size: 32px;
-    color: #174dba;
-    font-weight: bold;
-    margin: 80px 0px 20px 40px;
-  }
+  text-align: center;
+  margin: auto;
+  padding-top: 200px;
+  width: 100%;
+}
+
+.adminUsers {
+  max-width: 1300px;
 }

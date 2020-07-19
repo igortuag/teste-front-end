@@ -8,6 +8,7 @@ body {
   background-color: #eff0f3;
   color: #174dba;
   -webkit-font-smothing: antialised;
+  margin: auto;
 }
 
 body, input, button {
@@ -39,18 +40,21 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
+  margin: auto;
 }
 
 .usersPage {
+  height: 100%;
   align-items: center;
+  text-align: center;
+  margin: auto;
+  padding-top: 200px;
+  width: 100%;
 }
-.usersPage h1 {
-  flex-basis: 100%;
-  font-family: "HelveticaNeueBold";
-  font-size: 32px;
-  color: #174dba;
-  font-weight: bold;
-  margin: 80px 0px 20px 40px;
+
+.adminUsers {
+  max-width: 1300px;
 }
 
 .loginBox {
@@ -58,33 +62,20 @@ main {
   flex-direction: column;
   background-color: #ffffff;
   width: 470px;
-  height: 440px;
   margin: auto;
-  position: relative;
   border-radius: 10px;
 }
-
-h1 {
-  font-size: 32px;
-  font-family: "HelveticaNeueBold";
-  color: #174dba;
-  font-weight: bold;
-  text-align: center;
-  padding-top: 35px;
-  padding-bottom: 55px;
-}
-
-form {
+.loginBox form {
   display: flex;
   flex-direction: column;
 }
-form label {
+.loginBox form label {
   margin: auto;
   padding-top: 5px;
   margin-bottom: 5px;
   width: 70%;
 }
-form input {
+.loginBox form input {
   border: 2px solid #174dba;
   color: #174dba;
   margin: auto;
@@ -92,7 +83,15 @@ form input {
   height: 50px;
   width: 70%;
 }
-form .inputData {
+.loginBox form textarea:focus,
+.loginBox form input:focus,
+.loginBox form select:focus {
+  box-shadow: 0 0 0 0;
+  border: 2px solid #505050;
+  border-radius: 10px;
+  outline: 0;
+}
+.loginBox form .inputData {
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -134,31 +133,20 @@ form .inputData {
 }
 
 .userList {
-  max-width: 1400px;
-  height: 100vh;
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  grid-gap: 20px;
 }
-.userList h1 {
-  flex-basis: 100%;
-  font-family: "HelveticaNeueBold";
-  font-size: 32px;
-  color: #174dba;
-  font-weight: bold;
-  margin: 80px 0px 20px 40px;
-}
-
 .userBox {
-  margin: 20px;
   display: flex;
+  margin-bottom: 5%;
   flex-direction: column;
   background-color: #ffffff;
   border-radius: 10px;
-  min-width: 380px;
-  max-width: 380px;
 }
 .userBox .userImg {
   display: block;
@@ -183,12 +171,32 @@ form .inputData {
   color: #505050;
   margin-bottom: 30px;
 }
-.userBox footer {
-  color: red;
-}
 
 footer {
-  margin-right: 1000px;
+  background-color: red;
+  text-align: end;
+  padding: 0px 20px 50px 50px;
+  grid-column: 1/-1;
+}
+
+h1 {
+  color: #174dba;
+  font-family: "HelveticaNeueBold";
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.adminUsers h1 {
+  position: absolute;
+  top: 120px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.loginBox h1 {
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 55px;
 }
 
 @font-face {
