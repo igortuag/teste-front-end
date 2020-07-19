@@ -1,10 +1,40 @@
 ![UpperSoft](https://raw.githubusercontent.com/uppersoft/teste-front-end/master/assets/logo-readme.png)
 
-# Teste front-end
+# Teste front-end - Igor Tuag
 
-Teste aos candidatos as vagas de desenvolvimento Front-end da UpperSoft.
+Esta é a solução proposta por mim, para o teste. Abaixo algumas demonstrações das funcionalidades propostas.
 
+## Demosntração
 
+### Login: Falha / Sucesso
+<div>
+  <p align="center">
+  <img src="./.github/demoLogin.gif" alt="demoLogin" height="425">
+   </p>
+</div>
+
+### Responsividade
+<div>
+  <p align="center">
+  <img src="./.github/demoResponsivity.gif" alt="demoLogin" height="425">
+   </p>
+</div>
+
+### Armazenamento e validação usando token
+<div>
+  <p align="center">
+  <img src="./.github/demoAuthenticacao.gif" alt="demoLogin" height="425">
+   </p>
+</div>
+
+## Para rodar o projeto
+
+```
+yarn add ou npm install
+yarn / npm transpileSass
+```
+
+## Especificações
 
 ## Objetivo
 
