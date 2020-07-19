@@ -1,6 +1,5 @@
 .userBox {
   display: flex;
-  margin-bottom: 5% ;
   flex-direction: column;
   background-color: $white-color;
   border-radius: 10px;
@@ -9,25 +8,24 @@
     display: block;
     margin: auto;
     border-radius: 50%;
-    width: 100px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    width: 125px;
+    height: 125px;
+    background: $white-color;
   }
 
   p {
-    margin: 10px;
+    margin: 20px;
     text-align: center;
     font-size: 22px;
     font-weight: bold;
     font-family: HelveticaNeueBold;
-    color: #174dba;
+    color: $primary-color;
   }
 
   span {
     margin: auto;
     text-align: center;
-    font-size: 16px;
-    color: #505050;
-    margin-bottom: 30px;
+    color: $dark-color;
+    margin-bottom: 70px;
   }
 }
