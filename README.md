@@ -4,7 +4,7 @@
 
 Esta é a solução proposta por mim, para o teste. Abaixo algumas demonstrações das funcionalidades propostas.
 
-## Demosntração
+## Demonstração
 
 ### Login: Falha / Sucesso
 <div>
