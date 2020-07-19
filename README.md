@@ -32,6 +32,8 @@ Esta é a solução proposta por mim, para o teste. Abaixo algumas demonstraçõ
 ```
 yarn add ou npm install
 yarn / npm transpileSass
+
+abrir o index.html contido na pasta src
 ```
 
 ## Especificações
